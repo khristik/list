@@ -1,0 +1,31 @@
+.createSection {
+  margin-top: 30px;
+  display: flex;
+}
+
+.createSection input {
+  flex-grow: 1;
+  border: none;
+  background: #f7f1f1;
+  padding: 10px 20px;
+  outline: none;
+}
+
+.createButton {
+  padding: 10px 20px;
+  background: rgba(22, 121, 16, 0.9);
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.3;
+}
+
+.createSection input,
+.createSection button {
+  height: 50px;
+}
